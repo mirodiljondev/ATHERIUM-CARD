@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.karta{
+   background-color: #15273F;
+   width: 250px;
+   border-radius: 10px;
+   padding: 16px;
+   font-family:Outfit ;
+   box-shadow: 3px 7px 18px -13px rgba(0,0,0,1);
+}
+
+.q{
+    display: flex;
+    gap: 5px;
+}
+.ikkilik{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.matn{
+    color: #939AA4;
+    padding: 10px 0;
+    line-height: 22px;
+}
+.soat{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+h3{
+    color:#F7F8FD ;
+}
+.w{
+    color: #939AA4;
+}
+.s{
+    color: #22B2B3;
+    font-weight: 800;
+}
+i{
+    color:#90ADD5 ;
+}
+.katta{
+    width: 100%;
+    height:40vh ;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+hr{
+    margin: 15px 0;
+    border: none;
+    height: 0.1px;
+    background-color: #273951;
+}
+.z{
+    color:white ;
+}
+span{
+ color:#667B96;   
+}
+.past{
+    display: flex;
+    align-items: center;
+    gap:10px ;
+}
+.kichik{
+    /* width: 8vw;
+    height: 8vh; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#0C192C ;
+}
+ @media screen and ( max-width:500px)
+ {
+    .katta{
+        
+    }
+ }    
